@@ -70,8 +70,19 @@ print(str_value.count("30")) # 1
 print(str_value.count("I")) # 2
 
 # spilt the string with index
+print(str_value[3:9])
+
+#  Reverse String using slicing concept
+print(str_value[::-1])
+
+# Revere string using for loop
+my_string = " Hello World"
 
 
+# Using for loop
+for i in range(0, len(my_string) - 1):
+    val = len(my_string) - 1 - i
+    print(my_string[val])
 
 # or regular expressions
 
